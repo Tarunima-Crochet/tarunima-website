@@ -1,0 +1,45 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #F6F1EB;
+  color: #5A4B41;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #7B9E89;
+  color: #FFF;
+}
+
+.logo {
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.intro, .products, .contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  background-color: #7B9E89;
+  color: white;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
